@@ -220,7 +220,10 @@
 }
 @media only screen and (max-width: 768px) {
   .module-11 .img .img-trans:before {
-    width: 35%;
+    display: none;
+  }
+  .module-11 .img {
+    text-align: center;
   }
   .bg-text {
     display: none;
