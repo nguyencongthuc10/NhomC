@@ -140,10 +140,8 @@
         padding: 8px 64px;
         cursor: pointer;
         text-align: center;
-        
-        
       }
-      a::before{
+      a:before {
         content: "";
         display: block;
         position: absolute;
@@ -152,65 +150,94 @@
         height: 100%;
         top: 0;
         left: 0;
-        background-color: currentColor;
+        background-color: #000;
         -webkit-transform: translateX(-100%);
         -ms-transform: translateX(-100%);
         transform: translateX(-100%);
         -webkit-transition: 0s;
         -o-transition: 0s;
         transition: 0s;
-        
+        z-index: -1;
       }
-      a:hover{
-        
+      a {
+        z-index: 1;
+        color: #000;
         text-decoration: none;
       }
+      a:hover {
+        animation: color-ani 1.2s cubic-bezier(0.34, 0.43, 0.13, 0.96) forwards;
+      }
       a:hover::before {
-        -webkit-animation: ami 1.2s cubic-bezier(.34,.43,.13,.96) forwards;
-        animation: ami 1.2s cubic-bezier(.34,.43,.13,.96) forwards;
+        -webkit-animation: ami 1.2s cubic-bezier(0.34, 0.43, 0.13, 0.96)
+          forwards;
+        animation: ami 1.2s cubic-bezier(0.34, 0.43, 0.13, 0.96) forwards;
       }
     }
+  }
+}
+@-webkit-keyframes color-ani {
+  0%,
+  100%,
+  85% {
+    color: #000;
+  }
+
+  30%,
+  60% {
+    color: #fff;
+  }
+}
+
+@keyframes color-ani {
+  0%,
+  100%,
+  85% {
+    color: #000;
+  }
+
+  30%,
+  60% {
+    color: #fff;
   }
 }
 @-webkit-keyframes ami {
-    0% {
-        -webkit-transform: translateX(-100%);
-        transform: translateX(-100%)
-    }
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
 
-    50% {
-      
-        -webkit-transform: translateX(0);
-        transform: translateX(0)
-    }
+  50% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
 
-    100% {
-        -webkit-transform: translateX(100%);
-        transform: translateX(100%);
-    }
+  100% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
 }
 
 @keyframes ami {
-    0% {
-        -webkit-transform: translateX(-100%);
-        transform: translateX(-100%)
-    }
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
 
-    50% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0)
-    }
+  50% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
 
-    100% {
-        -webkit-transform: translateX(100%);
-        transform: translateX(100%)
-    }
+  100% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .module-11 .img .img-trans:before {
     width: 35%;
   }
-  .bg-text{
+  .bg-text {
     display: none;
   }
 }

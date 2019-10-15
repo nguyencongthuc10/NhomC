@@ -139,7 +139,7 @@
   cursor: pointer;
   text-align: center;
 }
-.module-11 .disco .btn-discover a::before {
+.module-11 .disco .btn-discover a:before {
   content: "";
   display: block;
   position: absolute;
@@ -147,20 +147,48 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color: currentColor;
+  background-color: #000;
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   transform: translateX(-100%);
   -webkit-transition: 0s;
   -o-transition: 0s;
   transition: 0s;
+  z-index: -1;
 }
-.module-11 .disco .btn-discover a:hover {
+.module-11 .disco .btn-discover a {
+  z-index: 1;
+  color: #000;
   text-decoration: none;
 }
+.module-11 .disco .btn-discover a:hover {
+  animation: color-ani 1.2s cubic-bezier(0.34,0.43,0.13,0.96) forwards;
+}
 .module-11 .disco .btn-discover a:hover::before {
-  -webkit-animation: ami 1.2s cubic-bezier(.34,.43,.13,.96) forwards;
-  animation: ami 1.2s cubic-bezier(.34,.43,.13,.96) forwards;
+  -webkit-animation: ami 1.2s cubic-bezier(0.34,0.43,0.13,0.96) forwards;
+  animation: ami 1.2s cubic-bezier(0.34,0.43,0.13,0.96) forwards;
+}
+@-webkit-keyframes color-ani {
+  0%,
+  100%,
+  85% {
+    color: #000;
+  }
+  30%,
+  60% {
+    color: #fff;
+  }
+}
+@keyframes color-ani {
+  0%,
+  100%,
+  85% {
+    color: #000;
+  }
+  30%,
+  60% {
+    color: #fff;
+  }
 }
 @-webkit-keyframes ami {
   0% {
