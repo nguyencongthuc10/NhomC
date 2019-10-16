@@ -29,5 +29,4 @@ $less->compileFile('less/22.less', 'css/22.css');
     </head>
     <body>
         <?php include $dir_block . '/22-content.php'; ?>
-        sdkvnsdvsdvubđfsfsss
 </html>
