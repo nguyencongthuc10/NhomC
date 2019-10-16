@@ -7,8 +7,14 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-<div class="container container-modify header">
-    <div class="modul-22">
-        
+
+<div class="module-22 container-fluid">
+    <div class="row">
+        <div class="col-md-12 column">
+            <div class="image-holder">
+                <div class="inner">
+                    <img src="./images/module-22-1.jpg" class="size-full" alt="a"> </div>
+            </div>
+        </div>
     </div>
 </div>
