@@ -1,0 +1,197 @@
+.type-25 {
+  
+    .a3_1:hover {
+      .disco a{
+        opacity: 1;
+      }
+      .a3_1_2 img{
+        opacity: 0.2;
+
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+      }
+    } 
+    .disco {
+      position: absolute;
+      top: 20%;
+      left: 0;
+    }
+    .disco a{
+    border: 1px solid #000;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 2em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    -o-transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    padding: 8px 64px;
+    white-space: nowrap;
+    width: 100%;
+    max-width: 225px;
+    text-decoration:none;
+    opacity: 0;
+    text-align: center;
+    }   
+
+.disco {
+    display: table;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    text-align: center;
+    width: 100%;
+    .btn-discover {
+      display: inline-block;
+      overflow: hidden;     
+      a {
+        width: 98% !important;
+        color: #000;
+        background-color: transparent;
+        overflow: hidden;
+        position: relative;
+        vertical-align: middle;
+        width: auto;
+        margin: 0;
+        font-family: inherit;
+        font-size: 11px;
+        line-height: 2em;
+        font-weight: 500;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        outline: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 8px 64px;
+        cursor: pointer;
+        text-align: center;
+      }
+      a.abc:before {
+        content: "";
+        display: block;
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        transform: translateX(-100%);
+        -webkit-transition: 0s;
+        -o-transition: 0s;
+        transition: 0s;
+        z-index: -1;
+      }
+      a:before {
+        content: "";
+        display: block;
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #000;
+        -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        transform: translateX(-100%);
+        -webkit-transition: 0s;
+        -o-transition: 0s;
+        transition: 0s;
+        z-index: -1;
+      }
+
+      a {
+        z-index: 1;
+        color: #000;
+        text-decoration: none;
+      }
+
+      a:hover {
+        animation: color-ani 1.2s cubic-bezier(0.34, 0.43, 0.13, 0.96) forwards;
+      }
+      a.abc:hover {
+         animation: color-view 1.2s cubic-bezier(0.34, 0.43, 0.13, 0.96) forwards;
+      }
+      a:hover::before {
+        -webkit-animation: ami 1.2s cubic-bezier(0.34, 0.43, 0.13, 0.96)
+          forwards;
+        animation: ami 1.2s cubic-bezier(0.34, 0.43, 0.13, 0.96) forwards;
+      }
+    }
+  } 
+}    
+@-webkit-keyframes color-ani {
+  0%,
+  100%,
+  85% {
+    color: #ddd;
+  }
+
+  30%,
+  60% {
+    color: #fff;
+  }
+}
+
+@keyframes color-view {
+  0%,
+  100%,
+  85% {
+    color: #fff;
+  }
+
+  30%,
+  60% {
+    color: #000;
+  }
+}
+
+@keyframes color-ani {
+  0%,
+  100%,
+  85% {
+    color: #000;
+  }
+
+  30%,
+  60% {
+    color: #fff;
+  }
+}
+@-webkit-keyframes ami {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+
+  50% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+
+@keyframes ami {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+
+  50% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
