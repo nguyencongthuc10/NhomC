@@ -4,7 +4,8 @@
 .type-13 .tittle-13 {
   text-align: center;
 }
-.type-13 .wpcf7 {
+.type-13 .abouts-md-13 {
+  padding: 0 20px;
   text-align: center;
 }
 .type-13 .img-ab-13 {
@@ -16,7 +17,10 @@
   background: #bf5c30;
   color: #fff;
 }
-.type-13 .custom-email .wpcf7-form-control.wpcf7-text {
+.type-13 .custom-email {
+  padding-top: 20px;
+}
+.type-13 .custom-email .wpcf7-form-control .wpcf7-text {
   border: none;
   padding: 0;
   margin: 0;
@@ -26,7 +30,7 @@
   text-transform: none;
   font-size: 13px;
 }
-.type-13 .custom-email button.qodef-btn {
+.type-13 .custom-email .abouts-btn {
   padding: 0 !important;
   right: 0;
   top: 6px;
@@ -39,6 +43,10 @@
 }
 .type-13 .abouus-13-oder {
   color: #757575;
+  font-size: 16px;
+}
+.type-13 .odr-13 {
+  font-weight: 600;
 }
 .type-13 .sub-13-aboutt {
   font-size: 14px;
@@ -47,7 +55,7 @@
   font-family: sans-serif;
   font-weight: 600;
 }
-.type-13 .qodef-eh-item:after {
+.type-13 .module-13-item:after {
   content: '';
   position: absolute;
   height: 100%;

@@ -24,7 +24,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         Subscribe now and get 10% off new collection </div>
                     <div role="form" class="wpcf7" id="wpcf7-f11-o1" lang="en-US" dir="ltr">
                         <div class="screen-reader-response"></div>
-                        <form action="/#wpcf7-f11-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                        <form action="#" method="post" class="wpcf7-form" novalidate="novalidate">
                             <div style="display: none;">
                                 <input type="hidden" name="_wpcf7" value="11">
                                 <input type="hidden" name="_wpcf7_version" value="5.1.4">

@@ -1,4 +1,5 @@
 .type-24 {
+    @font-size-text: 16px;
 
 ::selection {
     background: #bf5c30;
@@ -6,28 +7,19 @@
 }
 ul.tabs {
     position: relative;
-    display: inline-block;
     width: 100%;
-    vertical-align: middle;
-    list-style: none;
-    margin: 0;
-    padding: 0;
     text-align: center;
-    clear: both;
 }
-#exTab1 ul li a{
+#tab-hieu ul li a{
     text-decoration: none;
 }
  ul.tabs>li {
-    position: relative;
     display: inline-block;
-    vertical-align: middle;
     margin: 0 30px;
-}
-ul.tabs>li a{
+
+    a{
     position: relative;
     display: inline-block;
-    vertical-align: top;
     padding: 13px 0;
     font-size: 14px;
     line-height: 1.71em;
@@ -35,7 +27,7 @@ ul.tabs>li a{
     font-weight: 700;
     letter-spacing: .07em;
     color: #000;
-
+}
 }
  ul.tabs:after {
     content: '';
@@ -49,6 +41,9 @@ ul.tabs>li a{
     transform: translateX(-50%);
     bottom: 0;
     max-width: 100%!important;
+}
+.stars{
+    margin-left: -195px;
 }
 ul.tabs>li a:after {
     content: '';
@@ -74,7 +69,7 @@ ul.tabs>li.active a:after {
     font-family: sans-serif;
     margin-top: 20px;
     color: #757575;
-    font-size: 16px;
+    font-size: @font-size-text;
 }
 .name-product-infomation2{
     font-family: Cormorant,serif;
@@ -85,49 +80,45 @@ ul.tabs>li.active a:after {
     letter-spacing: .4em;
     text-align: center;
     margin-bottom: 20px;
-
-
 }
 .review{
-        font-size: 14px;
+    font-size: 14px;
     line-height: 1.71em;
     letter-spacing: .07em;
     color: #000;
     font-family: Muli,sans-serif;
     margin: 25px 0;
     text-transform: uppercase;
-    -ms-word-wrap: break-word;
-    word-wrap: break-word;
     font-weight: 700;
 }
-.t2-review{
+.t2-hh{
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: @font-size-text;
     color: #757575;
-        padding-top: 30px;
+    padding-top: 20px;
 }
-.t3-review{
-font-size: 14px;
+.t3-hh{
+    font-size: 14px;
     line-height: 1.71em;
     letter-spacing: .07em;
     color: #000;
     font-family: Muli,sans-serif;
     margin: 25px 0;
     text-transform: uppercase;
-    -ms-word-wrap: break-word;
-    word-wrap: break-word;
     font-weight: 700;
 }
-div.stars {
-  width: 270px;
-  display: inline-block;
+div{
+    .stars {
+    width: 270px;
+    display: inline-block;
+}
 }
  
 input.star { display: none; }
  
 label.star {
   float: right;
-  font-size: 16px;
+  font-size: @font-size-text;
   color: #444;
   transition: all .2s;
 }
@@ -153,7 +144,7 @@ p.comment-form-email {
     width: 48%;
     margin-bottom: 20px;
 }
-#author{
+.author{
     width: 100%;
     height: 50px;
 }
@@ -162,6 +153,16 @@ p.comment-form-email {
     padding: 10px 20px;
     border: 1px solid #000;
 
+}
+.title-24{
+    text-align: center; 
+    color: #757575;
+    margin: 10px 0px 0px; 
+    font-size: @font-size-text ;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
 }
 input{
     position: relative;

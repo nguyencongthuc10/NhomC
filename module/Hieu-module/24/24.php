@@ -27,8 +27,8 @@ $url_path = str_replace('\\', '/', $url_path);
         <link href="<?php echo $url_path ?>/css/24.css" rel="stylesheet" type="text/css" /> 
        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">     
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">   
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         <title>Module 24</title>
     </head>
 
