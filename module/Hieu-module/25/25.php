@@ -19,17 +19,22 @@ $url_path = str_replace('\\', '/', $url_path);
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>ProInfo</title>
+        <title>25</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <link href="css/25.css" rel="stylesheet" type="text/css" />
+         <script src="js/jquery-2.1.4.min.js"></script>
+         <script src="./js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/25.js"></script>
+
     </head>
 
     <body>
         <?php include '25-content.php'; ?>
     </body>
+
 </html>
 
 

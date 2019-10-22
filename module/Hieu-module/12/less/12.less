@@ -1,5 +1,12 @@
 
 .type-12 {
+    ::selection {
+    background: #bf5c30;
+    color: #fff;
+  }
+    .container{
+      padding-top: 100px;
+    }
    .name-title-banner{
     text-align: center;
     letter-spacing: 6px;
@@ -11,25 +18,28 @@
     text-align: center;
     padding-top: 20px;
    }
+   .nille-name{
+    color: #bf5c30;
+   }
    .hieu-banner-ins{
     font-size: 18px;
     color: #757575;
+    padding-bottom: 30px
    }
-   .ins-thumnal ul li{
+   .thumnal {
+    ul li{
     list-style: none;
-
-   }
-   .ins-thumnal ul li {
     display: block;
     float: left;
    }
-   .ins-thumnal img{
+    img{
     width: 275px;
    }
-   .ins-thumnal li{
+    li{
     width: 25%;
    }
-  .qodef-instagram-icon {
+   }
+  .instagram-icon {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,34 +53,75 @@
     -ms-transform: translate(-50%,-10%);
     transform: translate(-50%,-10%);
 }
-.qodef-instagram-feed li a:hover .qodef-instagram-icon {
+  .instagram-nth li a:hover {
+    .instagram-icon {
+        opacity: 1;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+    }
+}
+.instagram-nth li a:hover:after {
     opacity: 1;
-    -webkit-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
 }
-
-.fab {
-    font-family: "font awesome 5 brands";
-}
-.fa-instagram:before {
-    content: "\f16d";
-}
-.ins-thumnal img {
-     opacity: 1;
-    transition: opacity .40s ease-in-out;
-     -webkit-transition: opacity .40s ease-in-out;
-     -moz-transition: opacity .40s ease-in-out;
-     -o-transition: opacity .40s ease-in-out;
- }
- 
- .ins-thumnal img:hover {
-     opacity: 0.75;
- }
-.qodef-instagram-feed li a {
-    position: relative;
+.instagram-nth li a:after {
+    position: absolute;
     display: block;
-    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    content: '';
+    background-color: rgba(0,0,0,.4);
+    opacity: 0;
+    -webkit-transition: opacity .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
 }
-   
+  .fab {
+      font-family: "font awesome 5 brands";
+  }
+  .fa-instagram:before {
+      content: "\f16d";
+  }
+  .thumnal{
+    img {
+       opacity: 1;
+      transition: opacity .40s ease-in-out;
+       -webkit-transition: opacity .40s ease-in-out;
+       -moz-transition: opacity .40s ease-in-out;
+       -o-transition: opacity .40s ease-in-out;
+   }
+  } 
+   .ins-thumnal {
+      img:hover {
+         opacity: 0.75;
+     }
+   }
+  .instagram-nth {
+    li a {
+      position: relative;
+      display: block;
+      overflow: hidden;
+  }
+  }
+@media only screen and (max-width: 680px){
+  .instagram-nth:not(.instagram) li {
+      width: 50%!important;
+  }
 }
+ @media screen and (max-width: 441px) {
+   .instagram-nth:not(.instagram) li {
+      width: 50%!important;
+       margin-left:-12px; 
+  }
+  .thumnal img{
+    width: 160px !important;
+   }
+ }
+  @media screen and (max-width: 375px) {
+   .instagram-nth:not(.instagram) li {
+     margin-left:-12px; 
+  }
+ }
+}
+ 
