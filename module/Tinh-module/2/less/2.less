@@ -34,8 +34,8 @@ html, body {
 		}
 		.item-inner{
 			position: relative;
-    		top: 250px;
-    		left: 200px;
+    		top: 150px;
+    		left: 400px;
 			text-align: justify;
 			max-width: 600px;
 			.disco {
@@ -57,7 +57,7 @@ html, body {
 					padding: .5em 0;
 					font-family: inherit;
 					font-size: 11px;
-					line-height: 2em;
+					line-height: 3.5em;
 					font-weight: 500;
 					letter-spacing: 0.2em;
 					text-transform: uppercase;
@@ -76,8 +76,8 @@ html, body {
 					display: block;
 					position: absolute;
 					width: 100%;
-					height: 100%;
-					top: 0;
+					height: 135%;
+					top: -5px;
 					left: 0;
 
 					background-color: #fff;
@@ -100,6 +100,44 @@ html, body {
 				}
 			  }
 		}
+		.item-after{
+			position: relative;
+		    top: 30%;
+		    left: 60%;
+		    width: 100%;
+			.img-fix{
+				width: 200px;
+				height: 150px;
+			}
+		}
+		.item-before{
+			position: relative;
+			background: #fff;
+			max-width: 25%;
+			height: 75%;
+			text-align: center;
+			top: -330px;
+			left: 35px;
+			.img-fix1{
+				width: 168px;
+				height: 255px;
+			}
+			.item-before-inner{
+				text-align: justify;
+				font-size: 15.5px;
+				color:rgb(117, 117, 117);
+				margin-left: 10%;
+				span{
+					color:#000;
+					font-family: Cormorant;
+					font-size: 18px;
+				}
+				h3{
+					font-size: 18px;
+					color: #000;
+				}
+			}
+		}
 	  }
 	  .parallax-bg {
 		position: absolute;
@@ -118,9 +156,25 @@ html, body {
 			.title{
 				font-size:40px;
 			}
+			.text{
+				display: none;
+			}
 			.item-inner{
 				position:relative;
-				left:0;
+				left:32px;
+				margin-top: 200px;
+			}
+			.item-after{
+				.img-fix{
+					width: 0;
+					height: 0;
+				}
+			}
+			.item-before{
+				max-width: 75%;
+				height: 75%;
+				top: -365px;
+
 			}
 		}
 	}
@@ -131,22 +185,151 @@ html, body {
 			.title{
 				font-size:40px;
 			}
+			.text{
+				display: none;
+			}
 			.item-inner{
 				position:relative;
 				left:0px;
+				margin-top: 200px;
 			}
 		}
 	}
 }
-@media (min-width:710px) and (max-width: 930px){
+@media (min-width:501px) and (max-width: 523px){
+			.type-2{
+		.swiper-slide{
+			.title{
+				font-size:40px;
+			}
+			.text{
+				display: none;
+			}
+			.item-inner{
+				position:relative;
+				left:32px;
+				margin-top: 200px;
+			}
+			.item-before{
+				max-width: 75%;
+				height: 75%;
+				top: -790px;
+			}
+		}
+	}
+} 
+@media (min-width:524px) and (max-width: 600px){
+			.type-2{
+		.swiper-slide{
+			.title{
+				font-size:40px;
+			}
+			.text{
+				display: none;
+			}
+			.item-inner{
+				position:relative;
+				left:32px;
+				margin-top: 200px;
+			}
+			.item-before{
+				max-width: 50%;
+				height: 75%;
+				top: -640px;
+			}
+		}
+	}
+} 
+@media (min-width:601px) and (max-width: 710px){
+			.type-2{
+		.swiper-slide{
+			.title{
+				font-size:40px;
+			}
+			.text{
+				display: none;
+			}
+			.item-inner{
+				position:relative;
+				left:32px;
+				margin-top: 200px;
+			}
+			.item-before{
+				max-width: 50%;
+				height: 75%;
+				top: -640px;
+			}
+		}
+	}
+} 
+@media (min-width:711px) and (max-width: 1000px){
 	.type-2{
 		.swiper-slide{
 			.title{
 				font-size:40px;
 			}
+			.text{
+				display: none;
+			}
 			.item-inner{
 				position:relative;
 				left:100px;
+				margin-top: 200px;
+			}
+			.item-before{
+				max-width: 50%;
+				height: 75%;
+				top: -640px;
+				left: 100px;
+
+			}
+		}
+	}
+}
+@media(min-width: 731px) and (max-width: 986px){
+	.type-2{
+		.swiper-slide{
+			.title{
+				font-size:40px;
+			}
+			.text{
+				display: none;
+			}
+			.item-inner{
+				position:relative;
+				left:150px;
+				margin-top: 200px;
+			}
+			.item-before{
+				max-width: 40%;
+				height: 75%;
+				top: -490px;
+				left: 150px;
+
+			}
+		}
+	}
+}
+@media(min-width: 987px) and (max-width: 1000px){
+	.type-2{
+		.swiper-slide{
+			.title{
+				font-size:40px;
+			}
+			.text{
+				display: none;
+			}
+			.item-inner{
+				position:relative;
+				left:150px;
+				margin-top: 200px;
+			}
+			.item-before{
+				max-width: 30%;
+				height: 75%;
+				top: -490px;
+				left: 150px;
+
 			}
 		}
 	}
