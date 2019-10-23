@@ -1,0 +1,85 @@
+.type-1{
+	ul{
+		display:inline;
+		margin:0;
+		padding: 0;
+		li{
+			display: inline-block;
+			ul{
+				position: absolute;
+				width: 200px;
+				/*display: none;*/	
+				li{
+					background: #faf6f2;
+					display: block;
+					a{
+						color: rgb(117, 117, 117);
+						display: block !important;
+					}
+				}
+			}
+		}
+	}
+	ul li:hover{
+		cursor: pointer;
+		background:#fff;
+		ul{
+			/*display:block;*/
+		}
+	}
+	ul li ul li a:hover{ 
+		color: #000;
+		background: #f6efef;
+	}
+	.dropdown:after{
+		content:'';
+		top:0;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 15px;
+		margin: 0 15px;
+		border-bottom:1px solid #000;
+	}
+	.mobile_search {
+	margin: 6px 0 5px 0;
+}
+}
+.navbar-default{
+		background-color: #fff !important;
+		border-color:#fff !important;
+		.navbar-brand{
+			margin-top:-10px;
+		}
+	}
+.type-1 ul li ul li a{
+    color: #757575;
+    padding: 6px 45px;
+}
+.navbar-ex1-collapse {
+    position: relative;
+    width: 70%;
+    float: right;
+}
+.dropdown ul{
+    background: #faf6f2;
+/*    padding: 27px 0 27px;*/
+}
+.type-1 ul li ul {
+    left: -30px;
+    width: 300%;
+    box-shadow: none;
+    border: none;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #000!important;
+}
+.type-1 ul li ul {
+    max-height: 0;
+    transition: max-height 0.35s ease-out;
+    overflow: hidden;
+}
+.type-1 ul li:hover ul{
+    max-height: 500px;
+    transition: max-height 0.45s ease-in;
+}
