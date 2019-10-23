@@ -23,13 +23,13 @@ $less->compileFile('less/1.less', 'css/1.css');
   <title>module 3</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/bootstrap.min.css" rel="stylesheet"  />
-  <link href="css/font-awesome.min.css" rel="stylesheet"/>
-  <link href="css/1.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" type="text/css" href="css/swiper.css">
-  <script src="js/jquery.min.js" ></script>
-  <script type="js/bootstrap.min.js"></script>
-  <script src="js/1.js"></script>
+  <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet"  />
+  <link href="<?php echo $url_path ?>/css/1.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>/css/swiper.css">
+  <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet"/>
+  <script src="<?php echo $url_path ?>/js/jquery.min.js" ></script>
+  <script type="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+  <script src="<?php echo $url_path ?>/js/1.js"></script>
   
 </head>
 <body>

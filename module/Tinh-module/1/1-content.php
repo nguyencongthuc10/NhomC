@@ -98,9 +98,9 @@ $url_path = str_replace('\\', '/', $url_path);
           </ul>
           <form class="navbar-form navbar-right hidden-sm hidden-md hidden-xs" role="search" action="/" method="GET">
       <div class="input-group">
-      <input type="text" class="form-control" placeholder="Tìm kiếm..."/>
+      <input type="text" class="search-field"/>
       <span class="input-group-btn">
-        <button class="btn btn-success" type="button">Tìm kiếm</button>
+        <button class="btn btn-search" type="submit"><i class="fa fa-search"></i></button>
       </span>
       </div>
       </form>
