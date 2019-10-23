@@ -157,7 +157,7 @@ body {
   .type-2 .swiper-slide .item-inner {
     position: relative;
     left: 32px;
-    margin-top: 200px;
+    margin-top: 300px;
   }
   .type-2 .swiper-slide .item-after .img-fix {
     width: 0;
@@ -166,7 +166,7 @@ body {
   .type-2 .swiper-slide .item-before {
     max-width: 75%;
     height: 75%;
-    top: -365px;
+    top: -410px;
   }
 }
 @media (min-width: 501px) and (max-width: 710px) {
@@ -179,7 +179,7 @@ body {
   .type-2 .swiper-slide .item-inner {
     position: relative;
     left: 0px;
-    margin-top: 200px;
+    margin-top: 300px;
   }
 }
 @media (min-width: 501px) and (max-width: 523px) {
@@ -192,12 +192,12 @@ body {
   .type-2 .swiper-slide .item-inner {
     position: relative;
     left: 32px;
-    margin-top: 200px;
+    margin-top: 300px;
   }
   .type-2 .swiper-slide .item-before {
     max-width: 75%;
     height: 75%;
-    top: -790px;
+    top: -150%;
   }
 }
 @media (min-width: 524px) and (max-width: 600px) {
@@ -210,12 +210,12 @@ body {
   .type-2 .swiper-slide .item-inner {
     position: relative;
     left: 32px;
-    margin-top: 200px;
+    margin-top: 300px;
   }
   .type-2 .swiper-slide .item-before {
     max-width: 50%;
     height: 75%;
-    top: -640px;
+    top: -125%;
   }
 }
 @media (min-width: 601px) and (max-width: 710px) {
@@ -228,12 +228,12 @@ body {
   .type-2 .swiper-slide .item-inner {
     position: relative;
     left: 32px;
-    margin-top: 200px;
+    margin-top: 250px;
   }
   .type-2 .swiper-slide .item-before {
     max-width: 50%;
     height: 75%;
-    top: -640px;
+    top: -120%;
   }
 }
 @media (min-width: 711px) and (max-width: 1000px) {
@@ -246,12 +246,12 @@ body {
   .type-2 .swiper-slide .item-inner {
     position: relative;
     left: 100px;
-    margin-top: 200px;
+    margin-top: 250px;
   }
   .type-2 .swiper-slide .item-before {
     max-width: 50%;
     height: 75%;
-    top: -640px;
+    top: -120%;
     left: 100px;
   }
 }
@@ -265,12 +265,12 @@ body {
   .type-2 .swiper-slide .item-inner {
     position: relative;
     left: 150px;
-    margin-top: 200px;
+    margin-top: 250px;
   }
   .type-2 .swiper-slide .item-before {
     max-width: 40%;
     height: 75%;
-    top: -490px;
+    top: -95%;
     left: 150px;
   }
 }
@@ -284,12 +284,12 @@ body {
   .type-2 .swiper-slide .item-inner {
     position: relative;
     left: 150px;
-    margin-top: 200px;
+    margin-top: 250px;
   }
   .type-2 .swiper-slide .item-before {
     max-width: 30%;
     height: 75%;
-    top: -490px;
+    top: -95%;
     left: 150px;
   }
 }
