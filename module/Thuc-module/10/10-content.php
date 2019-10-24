@@ -15,21 +15,27 @@ $url_path = str_replace('\\', '/', $url_path);
     </div>
     <div class="row a10_2">
       <div class="col-md-4">
-        <a href="#"><img src="img/1.jpg"></a>
+        <div class="over">
+          <a href="#"><img src="images/10-1.jpg" alt="hinhanh1"></a>
+        </div>
         <div class="a10_2_1">
             <h4>ABOUT US</h4>
             <p>Blandit massa enim nec duin</p>
         </div>
       </div>
       <div class="col-md-4">
-        <a href="#"><img src="img/2.jpg"></a>
+        <div class="over">
+          <a href="#"><img src="images/10-2.jpg" alt="hinhanh2"></a>
+        </div>
         <div class="a10_2_1">
             <h4>ABOUT US</h4>
             <p>Blandit massa enim nec duin</p>
         </div>
       </div>
       <div class="col-md-4">
-        <a href="#"><img src="img/3.jpg"></a>
+        <div class="over">
+          <a href="#"><img src="images/10-3.jpg" alt="hinhanh3"></a>
+        </div>
         <div class="a10_2_1">
             <h4>ABOUT US</h4>
             <p>Blandit massa enim nec duin</p>
@@ -38,3 +44,4 @@ $url_path = str_replace('\\', '/', $url_path);
     </div>
   </div>
 </div>
+

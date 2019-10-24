@@ -25,9 +25,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet"  />
         <link href="css/font-awesome.min.css" rel="stylesheet"/>
-        <link href="css/14.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" type="text/css" href="css/swiper.css">
-        
+        <link href="css/14.css" rel="stylesheet" type="text/css" />    
          <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
@@ -38,7 +36,5 @@
     </head>
     <body>
          <?php  $dir_block.include'14-content.php'; ?>
-         <!-- javascrip swiper -->
-        
     </body>
 </html>

@@ -42,14 +42,14 @@
     <body>
          <?php  $dir_block.include'19-content.php'; ?>
          <!-- javascrip swiper -->
-         <script>
+          <script>
           var swiper = new Swiper('.swiper-container', {
             spaceBetween: 30,
             centeredSlides: true,
             loop:true,
             autoplayHoverPause: true,
             autoplay: {
-              delay: 4000,
+              delay: 2500,
               disableOnInteraction: false,
             },
             pagination: {
@@ -57,7 +57,7 @@
               clickable: true,
             }, 
           });
-          $(".swiper-container").hover(function() {
+            $(".swiper-container").hover(function() {
               (this).swiper.autoplay.stop();
           }, function() {
               (this).swiper.autoplay.start();

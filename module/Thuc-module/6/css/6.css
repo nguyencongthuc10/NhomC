@@ -32,7 +32,7 @@
 .type-6 .a6_2_1 {
   padding: 0 20px;
 }
-.type-6 .a6_2_1_1 h2 {
+.type-6 .a6_2_1 h2 {
   text-align: center;
   font-size: 14px;
   line-height: 1.71em;
@@ -42,4 +42,7 @@
   margin-bottom: 24px;
   font-weight: 600;
   text-transform: uppercase;
+}
+.type-6 .over {
+  overflow: hidden;
 }

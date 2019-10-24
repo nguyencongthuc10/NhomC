@@ -1,5 +1,5 @@
 .type-14 {
-  border-top: 1px solid #e1e1e1 d;
+  border-top: 1px solid #e1e1e1;
   padding-top: 6rem;
 }
 .type-14 h5 {
@@ -26,13 +26,13 @@
 .type-14 .a14_2 {
   margin-top: 35px;
 }
+.type-14 .a14_2 a {
+  text-decoration: none;
+}
 .type-14 .a14_2 a span {
   color: #cacaca;
   font-size: 14px;
   margin-right: 15px;
-}
-.type-14 .a14_2 a {
-  text-decoration: none;
 }
 .type-14 .a14_2 a span:hover {
   color: #000;

@@ -36,7 +36,5 @@
     </head>
     <body>
          <?php  $dir_block.include'6-content.php'; ?>
-         <!-- javascrip swiper -->
-      </script>
     </body>
 </html>
