@@ -11,7 +11,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="parallax-bg" style="background-image:url(./images/main-rev-i-1.jpg)">
+                    <div class="parallax-bg" style="background-image:url(../2/images/main-rev-i-1.jpg)">
                     </div>
                     <div class="item-inner">
                         <div class="title" data-swiper-parallax="-300">NEW JEWELRY</div>
@@ -28,12 +28,12 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <div class="item-after">
-                        <img src="./images/main-rev-image-5-1.png" alt="popup" class="img-fix">
-                        <img src="./images/main-rev-image-6.png" alt="popup" class="img-fix">
-                        <img src="./images/main-rev-image-7.png" alt="popup" class="img-fix">
+                        <img src="../2/images/main-rev-image-5-1.png" alt="popup" class="img-fix">
+                        <img src="../2/images/main-rev-image-6.png" alt="popup" class="img-fix">
+                        <img src="../2/images/main-rev-image-7.png" alt="popup" class="img-fix">
                     </div>
                     <div class="item-before">
-                        <img src="./images/main-rev-image-1.png" alt="popup" class="img-fix1">
+                        <img src="../2/images/main-rev-image-1.png" alt="popup" class="img-fix1">
                         <div class="item-before-inner">
                             <h3>WHITE PEARL</h3>
                             <p>Chagall Earrings</p>
@@ -42,7 +42,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="parallax-bg" style="background-image:url(./images/main-rev-i-2.jpg)">
+                    <div class="parallax-bg" style="background-image:url(../2/images/main-rev-i-2.jpg)">
                     </div>
                     <div class="item-inner">
                         <div class="title" data-swiper-parallax="-300" data-swiper-parallax-opacity="0">ALL DREAMLIKE</div>
@@ -59,12 +59,12 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <div class="item-after">
-                        <img src="./images/main-rev-image-5-1.png" alt="popup" class="img-fix">
-                        <img src="./images/main-rev-image-6.png" alt="popup" class="img-fix">
-                        <img src="./images/main-rev-image-7.png" alt="popup" class="img-fix">
+                        <img src="../2/images/main-rev-image-5-1.png" alt="popup" class="img-fix">
+                        <img src="../2/images/main-rev-image-6.png" alt="popup" class="img-fix">
+                        <img src="../2/images/main-rev-image-7.png" alt="popup" class="img-fix">
                     </div>
                     <div class="item-before">
-                        <img src="./images/main-rev-image-8.png" alt="popup" class="img-fix1">
+                        <img src="../2/images/main-rev-image-8.png" alt="popup" class="img-fix1">
                         <div class="item-before-inner">
                             <h3>GOLDEN LOCKET</h3>
                             <p>Sun Medallion</p>
@@ -73,7 +73,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="parallax-bg" style="background-image:url(./images/main-rev-i-3.jpg)">
+                    <div class="parallax-bg" style="background-image:url(../2/images/main-rev-i-3.jpg)">
                     </div>
                     <div class="item-inner">
                         <div class="title" data-swiper-parallax="-300">FRESH VISION</div>
@@ -90,12 +90,12 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <div class="item-after">
-                        <img src="./images/main-rev-image-5-1.png" alt="popup" class="img-fix">
-                        <img src="./images/main-rev-image-6.png" alt="popup" class="img-fix">
-                        <img src="./images/main-rev-image-7.png" alt="popup" class="img-fix">
+                        <img src="../2/images/main-rev-image-5-1.png" alt="popup" class="img-fix">
+                        <img src="../2/images/main-rev-image-6.png" alt="popup" class="img-fix">
+                        <img src="../2/images/main-rev-image-7.png" alt="popup" class="img-fix">
                     </div>
                     <div class="item-before">
-                        <img src="./images/main-rev-image-9.png" alt="popup" class="img-fix1">
+                        <img src="../2/images/main-rev-image-9.png" alt="popup" class="img-fix1">
                         <div class="item-before-inner">
                             <h3>PLATED PENDANT</h3>
                             <p>Braque Brooch</p>
