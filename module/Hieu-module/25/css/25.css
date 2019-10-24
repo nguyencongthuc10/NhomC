@@ -34,46 +34,7 @@
   background-color: #000;
   color: #fff;
 }
-.type-25 .disco .btn-discover a {
-  width: 98% !important;
-  color: #000;
-  background-color: transparent;
-  overflow: hidden;
-  position: relative;
-  vertical-align: middle;
-  width: auto;
-  margin: 0;
-  font-family: inherit;
-  font-size: 11px;
-  line-height: 2em;
-  font-weight: 500;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  outline: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 8px 64px;
-  cursor: pointer;
-  text-align: center;
-}
-.type-25 .disco .btn-discover a {
-  border: 1px solid #000;
-  display: inline-block;
-  font-size: 11px;
-  line-height: 2em;
-  letter-spacing: .2em;
-  text-transform: uppercase;
-  -o-transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
-  transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
-  padding: 8px 64px;
-  white-space: nowrap;
-  width: 100%;
-  max-width: 225px;
-  text-decoration: none;
-  opacity: 0;
-  text-align: center;
-}
-.type-25 .disco .btn-discover a.abc:before {
+.type-25 .disco .btn-discover .abc:before {
   content: "";
   display: block;
   position: absolute;
@@ -89,6 +50,35 @@
   -o-transition: 0s;
   transition: 0s;
   z-index: -1;
+}
+.type-25 .disco .btn-discover .abc:hover {
+  animation: color-view 1.2s cubic-bezier(0.34,0.43,0.13,0.96) forwards;
+}
+.type-25 .disco .btn-discover a {
+  width: 98% !important;
+  color: #000;
+  overflow: hidden;
+  position: relative;
+  vertical-align: middle;
+  width: auto;
+  margin: 0;
+  font-family: inherit;
+  font-size: 11px;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  outline: 0;
+  box-sizing: border-box;
+  padding: 8px 64px;
+  border: 1px solid #000;
+  display: inline-block;
+  transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+  white-space: nowrap;
+  max-width: 225px;
+  text-decoration: none;
+  opacity: 0;
+  z-index: 1;
 }
 .type-25 .disco .btn-discover a:before {
   content: "";
@@ -107,16 +97,8 @@
   transition: 0s;
   z-index: -1;
 }
-.type-25 .disco .btn-discover a {
-  z-index: 1;
-  color: #000;
-  text-decoration: none;
-}
 .type-25 .disco .btn-discover a:hover {
   animation: color-ani 1.2s cubic-bezier(0.34,0.43,0.13,0.96) forwards;
-}
-.type-25 .disco .btn-discover a.abc:hover {
-  animation: color-view 1.2s cubic-bezier(0.34,0.43,0.13,0.96) forwards;
 }
 .type-25 .disco .btn-discover a:hover::before {
   -webkit-animation: ami 1.2s cubic-bezier(0.34,0.43,0.13,0.96) forwards;

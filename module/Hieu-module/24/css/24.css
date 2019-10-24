@@ -2,28 +2,13 @@
   background: #bf5c30;
   color: #fff;
 }
+.type-24 #tab-hieu ul li a {
+  text-decoration: none;
+}
 .type-24 ul.tabs {
   position: relative;
   width: 100%;
   text-align: center;
-}
-.type-24 #tab-hieu ul li a {
-  text-decoration: none;
-}
-.type-24 ul.tabs>li {
-  display: inline-block;
-  margin: 0 30px;
-}
-.type-24 ul.tabs>li a {
-  position: relative;
-  display: inline-block;
-  padding: 13px 0;
-  font-size: 14px;
-  line-height: 1.71em;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: .07em;
-  color: #000;
 }
 .type-24 ul.tabs:after {
   content: '';
@@ -38,10 +23,22 @@
   bottom: 0;
   max-width: 100% !important;
 }
-.type-24 .stars {
-  margin-left: -195px;
+.type-24 ul.tabs li {
+  display: inline-block;
+  margin: 0 30px;
 }
-.type-24 ul.tabs>li a:after {
+.type-24 ul.tabs li a {
+  position: relative;
+  display: inline-block;
+  padding: 13px 0;
+  font-size: 14px;
+  line-height: 1.71em;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .07em;
+  color: #000;
+}
+.type-24 ul.tabs li a:after {
   content: '';
   position: absolute;
   left: 0;
@@ -54,10 +51,13 @@
   transition: .5s;
   z-index: 50;
 }
-.type-24 ul.tabs>li:hover a:after {
+.type-24 .stars {
+  margin-left: -195px;
+}
+.type-24 ul.tabs li:hover a:after {
   width: 100%;
 }
-.type-24 ul.tabs>li.active a:after {
+.type-24 ul.tabs li.active a:after {
   width: 100%;
 }
 .type-24 .name-product-infomation {
@@ -169,4 +169,9 @@
   letter-spacing: .2em;
   text-transform: uppercase;
   outline: 0;
+}
+@media only screen and (max-width: 1024px) {
+  .type-24 ul.tabs {
+    padding: 13px 10px;
+  }
 }
