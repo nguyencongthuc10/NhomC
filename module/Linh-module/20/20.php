@@ -22,7 +22,9 @@ $less->compileFile('less/20.less', 'css/20.css');
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <link href="<?php echo $url_path ?>/css/20.css" rel="stylesheet" type="text/css"/>
-    
+    <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="<?php echo $url_path ?>/js/20.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <?php include '../20/20-content.php'; ?>
