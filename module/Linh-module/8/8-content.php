@@ -42,4 +42,13 @@ $url_path = str_replace('\\', '/', $url_path);
 			</div>
 		</div>
 	</div>
+	<div class="banner-8">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<span>Free orders over $30 and free returns</span>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>

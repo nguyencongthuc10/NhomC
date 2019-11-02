@@ -1,4 +1,16 @@
 .type-8 {
+	.banner-8 {
+        padding-top: 140px;
+        .row{
+            .col-md-12{
+                padding: 45px 0;
+                text-align: center;
+                color: #fff;
+                font-size: 18px;
+                background: #c5af93;
+            }
+        }
+    }
 	.container {
 		position: relative;
 		.banner-img {
@@ -42,11 +54,11 @@
 		    	}
 		    	.qodef-banner-bg-text{
 					position: absolute;
-					bottom: -55%;
-				    right: -15%;
+					bottom: -18%;
+				    right: -22%;
 				    font-family: Cormorant,serif;
 				    color: #c6a3ba;
-				    font-size: 220px;
+				    font-size: 180px;
 				    font-weight: 700;
 				    line-height: .6em;
 				    letter-spacing: 0;
@@ -62,6 +74,35 @@
 				    }
 		    	}
 		    }
+		}
+	}
+}
+@media only screen and (max-width: 600px) {
+	.type-8 {
+		.container {
+			.banner-img {
+				background-size: inherit;
+			    .text-outner {
+			    	.text-inner {
+			    		background-color: rgba(246,240,233,.9);
+			    		box-sizing: border-box;
+			    		z-index: 9;
+			    		margin: 50px 22px 50px;
+			    		padding: 0;
+					    h6 {
+					    	padding-top: 25px;
+					    }
+					    h1 {
+					    }
+					    p {
+					    	padding-bottom: 25px;
+					    }
+			    	}
+			    	.qodef-banner-bg-text{
+			    		display: none;
+			    	}
+			    }
+			}
 		}
 	}
 }

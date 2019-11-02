@@ -45,6 +45,29 @@
 						height: 150px;
 						width: 95%;
 					}
+					.hovered{
+					    animation: color-ani 1.2s cubic-bezier(0.34, 0.43, 0.13, 0.96) forwards;
+					    &:before{
+					    	 content: "";
+					        display: block;
+					        position: absolute;
+					        display: block;
+					        width: 100%;
+					        height: 100%;
+					        top: 0;
+					        left: 0;
+					        background-color: #000;
+					        -webkit-transform: translateX(-100%);
+					        -ms-transform: translateX(-100%);
+					        transform: translateX(-100%);
+					        -webkit-transition: 0s;
+					        -o-transition: 0s;
+					        transition: 0s;
+					        z-index: -1;
+					        -webkit-animation: ami 1.2s cubic-bezier(0.34, 0.43, 0.13, 0.96) forwards;
+						    animation: ami 1.2s cubic-bezier(0.34, 0.43, 0.13, 0.96) forwards;
+					    }
+					}
 					.qodef-btn {
 						float: right;
 						color: #000;
@@ -65,31 +88,33 @@
 					    outline: 0;
 					    -webkit-box-sizing: border-box;
 					    box-sizing: border-box;
-/*					    -webkit-transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
-					    -o-transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
-					    transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;*/
 					    padding: 8px 64px;
 					    cursor: pointer;
-					    &:hover{
-					    	color: #fff;
+					   /* &:hover{
+					    	animation: color-ani 1.2s cubic-bezier(0.34, 0.43, 0.13, 0.96) forwards;
 					    }
 					    &:before{
-					    	content: '';
-						    display: block;
-						    position: absolute;
-						    top: -1px;
-						    left: 0;
-						    width: 0;
-						    height: 70px;
-						    background: #000;
-						    -webkit-transition: all 300ms ease-in-out;
-						    -moz-transition: all 300ms ease-in-out;
-						    transition: all 300ms ease-in-out;
-						    z-index: -1;
+					    	 content: "";
+					        display: block;
+					        position: absolute;
+					        display: block;
+					        width: 100%;
+					        height: 100%;
+					        top: 0;
+					        left: 0;
+					        background-color: #000;
+					        -webkit-transform: translateX(-100%);
+					        -ms-transform: translateX(-100%);
+					        transform: translateX(-100%);
+					        -webkit-transition: 0s;
+					        -o-transition: 0s;
+					        transition: 0s;
+					        z-index: -1;
 					    }
 					    &:hover:before{
-					    	width: 100%;
-					    }
+					    	-webkit-animation: ami 1.2s cubic-bezier(0.34, 0.43, 0.13, 0.96) forwards;
+						    animation: ami 1.2s cubic-bezier(0.34, 0.43, 0.13, 0.96) forwards;
+					    }*/
 					}
 					.qodef-btn-outline {
 						margin-top: 30px;
@@ -99,4 +124,92 @@
 			}
 		}
 	}
+}
+
+@-webkit-keyframes color-ani {
+  0%,
+  100%,
+  85% {
+    color: #000;
+  }
+
+  30%,
+  60% {
+    color: #fff;
+  }
+}
+
+@keyframes color-ani {
+  0%,
+  100%,
+  85% {
+    color: #000;
+  }
+
+  30%,
+  60% {
+    color: #fff;
+  }
+}
+@-webkit-keyframes ami {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+
+  50% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+
+@keyframes ami {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+
+  50% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+@media only screen and (max-width: 600px) {
+	.type-20 {
+		.contact{
+			.ct-contact{
+				padding-top: 10px;
+				.col-md-4{
+					text-align: center;
+					line-height: 30px;
+				}
+				.col-md-8{
+					.custom-contact{ 
+						.wpcf7-text{ 
+							input{
+								width: 100%;
+								margin-bottom: 15px;
+								margin-top: 5px;
+							}
+						}
+						.wpcf7-textarea{
+							width: 100%;
+						}
+					}
+				}
+			}
+				
+		}
+		
+	} 
 }
