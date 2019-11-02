@@ -24,7 +24,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <!-- images -->
                 <div class="a3_1_2 ">
                     <a href="">
-                        <img src="images/main-shop-25.jpg" alt="hhh" width="100%" height="100%" >
+                        <img src="images/25-main-shop-25.jpg" alt="hhh" width="100%" height="100%" >
                     </a>
                    <span class="New-proruct-25">New</span>
                </div>
@@ -58,7 +58,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                  <!-- images -->
                 <div class="a3_1_2 ">
-                   <a href=""><img src="images/main-shop-sl2-7.jpg" alt="" width="100%" height="100%"></a>
+                   <a href=""><img src="images/25-main-shop-sl2-7.jpg" alt="" width="100%" height="100%"></a>
                </div>
                 
                <!-- name product -->
@@ -92,7 +92,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <!-- images -->
             <div class="a3_1_2 ">  
-                <a href=""> <img src="images/main-shop-sl2-2.jpg" alt="" width="100%" height="100%"></a>
+                <a href=""> <img src="images/25-main-shop-sl2-2.jpg" alt="" width="100%" height="100%"></a>
             </div>    
             <!-- name product -->
             <div class="product-product-25">
