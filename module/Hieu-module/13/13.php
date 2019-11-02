@@ -15,25 +15,17 @@ $less->compileFile('less/13.less', 'css/13.css');
 <!DOCTYPE html>
 <html lang="en">
     <head>
-
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">    
         <title>13</title>
         <link rel="stylesheet" type="text/css" href="css/13.css">
         <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="./css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="./css/13.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="./css/owl.carousel.min.css">
-        <link rel="stylesheet" href="./css/owl.theme.default.min.css">
-    
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <script src="./js/jquery.min.js"></script>
         <script src="./js/owl.carousel.js"></script>
         <script src="./js/13.js"></script>
-   
     </head>
     <body>
         <?php include '../13/13-content.php'; ?>

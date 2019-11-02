@@ -11,19 +11,25 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container line">
         <!--ROW-->
         <div class="row">
+            <!-- col-md-4-->
             <div class="col-md-4">
-                <img src="images/Hieu-img-aboutus1.png" alt="" style="float: left;" >
+                <!-- images -->
+                <img src="images/17-img-aboutus1.png" alt=""  class="img-17" >
                 <div class="name-ab-us"><h5>UNEVEN TEXTURE</h5>
                     <p class="name-story">Our Story face feels organic</p></div>
                     
                 </div>
+                <!-- col-md-4 -->
                 <div class="col-md-4">
-                    <img src="images/Hieu-img-aboutus2.png" alt="" style="float: left;">
+                    <!-- images -->
+                    <img src="images/17-img-aboutus2.png" alt="" class="img-17">
                     <div class="name-ab-us"><h5>UNEVEN TEXTURE</h5>
                         <p class="name-story">Our Story face feels organic</p></div>
                     </div>
+                    <!-- col-md-4 -->
                     <div class="col-md-4">
-                        <img src="images/Hieu-imgaboutus3.png" alt="" style="float: left; display: block;">
+                        <!-- images -->
+                        <img src="images/17-imgaboutus3.png" alt="" class="img-17-m3">
                         <div class="name-ab-us"><h5>UNEVEN TEXTURE</h5>
                             <p class="name-story">Our Story face feels organic</p></div>
                         </div>

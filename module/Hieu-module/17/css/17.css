@@ -1,3 +1,6 @@
+.type-17 {
+  padding-top: 40px;
+}
 .type-17 .name-ab-us {
   vertical-align: middle;
   display: table-cell;
@@ -5,4 +8,11 @@
 }
 .type-17 .name-story {
   color: #757575;
+}
+.type-17 .img-17-m3 {
+  float: left;
+  display: block;
+}
+.type-17 .img-17 {
+  float: left;
 }

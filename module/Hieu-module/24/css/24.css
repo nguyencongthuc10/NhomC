@@ -2,6 +2,9 @@
   background: #bf5c30;
   color: #fff;
 }
+.type-24 .txt-24 {
+  width: 100%;
+}
 .type-24 #tab-hieu ul li a {
   text-decoration: none;
 }
@@ -145,6 +148,9 @@
   background: no-repeat;
   padding: 10px 20px;
   border: 1px solid #000;
+}
+.type-24 .form-group {
+  padding-top: 20px;
 }
 .type-24 .title-24 {
   text-align: center;

@@ -4,13 +4,18 @@
   .disco a{
     opacity: 1;
   }
-  .a3_1_2 img{
-    opacity: 0.2;
-    -webkit-transition: opacity 0.2s ease-in-out;
-    -moz-transition: opacity 0.2s ease-in-out;
-    -o-transition: opacity 0.2s ease-in-out;
-    transition: opacity 0.2s ease-in-out;
+  .a3_1_2 {
+    img{
+      opacity: 0.2;
+      -webkit-transition: opacity 0.2s ease-in-out;
+      -moz-transition: opacity 0.2s ease-in-out;
+      -o-transition: opacity 0.2s ease-in-out;
+      transition: opacity 0.2s ease-in-out;
+
+
   }
+
+}
 }  
 .name-pr-25{
   font-size: 30px;
@@ -32,12 +37,11 @@
     .qw{
       margin-top: 20px;
     } 
-    .abc{
+    .view-card{
       background-color: #000;
       color: #fff;
       &:before {
         content: "";
-        display: block;
         position: absolute;
         display: block;
         width: 100%;
@@ -87,7 +91,6 @@
         content: "";
         display: block;
         position: absolute;
-        display: block;
         width: 100%;
         height: 100%;
         top: 0;
@@ -101,17 +104,18 @@
         transition: 0s;
         z-index: -1;
       }
+
       &:hover {
-    animation: color-ani 1.2s cubic-bezier(0.34, 0.43, 0.13, 0.96) forwards;
-  }
+                  animation: color-ani 1.2s cubic-bezier(0.34, 0.43, 0.13, 0.96) forwards;
+              }
 
 }
-  
- a:hover::before {
-  -webkit-animation: ami 1.2s cubic-bezier(0.34, 0.43, 0.13, 0.96)
-  forwards;
-  animation: ami 1.2s cubic-bezier(0.34, 0.43, 0.13, 0.96) forwards;
-}
+
+  a:hover::before {
+      -webkit-animation: ami 1.2s cubic-bezier(0.34, 0.43, 0.13, 0.96)
+      forwards;
+      animation: ami 1.2s cubic-bezier(0.34, 0.43, 0.13, 0.96) forwards;
+  }
 }
 }
 .product-25-price{
@@ -166,7 +170,10 @@
   }
 }
 .traitim-251{
-  fill:none;stroke:#bf5c30;stroke-width:0.65;stroke-miterlimit:10;
+  fill:none;
+  stroke:#bf5c30;
+  stroke-width:0.65;
+  stroke-miterlimit:10;
 }
 
 .New-proruct-25 {

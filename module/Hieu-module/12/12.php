@@ -25,15 +25,8 @@ $url_path = str_replace('\\', '/', $url_path);
     <link href="css/font-awesome.min.css" rel="stylesheet">       
     <link href="css/12.css" rel="stylesheet" type="text/css" />
     <script src="js/jquery-2.1.4.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
-    
-
+    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet"> 
 </head>
-
 <body>
     <?php include $dir_block.'/12-content.php'; ?>
-    
-
 </body>
