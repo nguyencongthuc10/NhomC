@@ -30,7 +30,7 @@
         <link rel="stylesheet" type="text/css" href="css/swiper.css">
         <script src="js/jquery.min.js" ></script>
         <script src="js/swiper.js"></script>
-        
+        <script src="js/19.js"></script>
          <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
@@ -40,28 +40,6 @@
         ?>
     </head>
     <body>
-         <?php  $dir_block.include'19-content.php'; ?>
-         <!-- javascrip swiper -->
-          <script>
-          var swiper = new Swiper('.swiper-container', {
-            spaceBetween: 30,
-            centeredSlides: true,
-            loop:true,
-            autoplayHoverPause: true,
-            autoplay: {
-              delay: 2500,
-              disableOnInteraction: false,
-            },
-            pagination: {
-              el: '.swiper-pagination',
-              clickable: true,
-            }, 
-          });
-            $(".swiper-container").hover(function() {
-              (this).swiper.autoplay.stop();
-          }, function() {
-              (this).swiper.autoplay.start();
-          });
-      </script>
+         <?php  $dir_block.include'19-content.php'; ?>   
     </body>
 </html>

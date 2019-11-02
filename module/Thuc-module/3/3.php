@@ -31,11 +31,8 @@ $less->compileFile('less/3.less', 'css/3.css');
   <script src="js/swiper.js"></script>
   <script src="js/bootstrap-rating.js"></script>
   <script src="js/3.js"></script>
- 
 </head>
 <body>
  <?php  include'3-content.php'; ?>
-
-
 </body>
 </html>

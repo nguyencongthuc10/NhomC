@@ -9,6 +9,7 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-19">
   <div class="container">
+    <!--SWIPER -->
     <div class="swiper-container">
       <div class="parallax-bg" style="background:#c5af93;" data-swiper-parallax="-23%"></div>
       <div class=a19_1>
@@ -36,6 +37,7 @@ $url_path = str_replace('\\', '/', $url_path);
       </div>
       <div class="a19_2 swiper-pagination"><span></span></div>
     </div>
+    <!--END SWIPER -->
   </div>
   </div>
 

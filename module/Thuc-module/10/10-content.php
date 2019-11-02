@@ -9,11 +9,15 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-10">
   <div class="container">
+    <!-- phần đầu -->
     <div class="a10_1">
       <h1>LET’S GET CONNECTED</h1>
       <p>Our campaigns, the latest trends and new collections</p>
     </div>
+    <!--end phần đầu -->
+    <!-- phần sau -->
     <div class="row a10_2">
+      <!--img-->
       <div class="col-md-4">
         <div class="over">
           <a href="#"><img src="images/10-1.jpg" alt="hinhanh1"></a>
@@ -23,6 +27,8 @@ $url_path = str_replace('\\', '/', $url_path);
             <p>Blandit massa enim nec duin</p>
         </div>
       </div>
+      <!-- end img -->
+      <!--img-->
       <div class="col-md-4">
         <div class="over">
           <a href="#"><img src="images/10-2.jpg" alt="hinhanh2"></a>
@@ -32,6 +38,8 @@ $url_path = str_replace('\\', '/', $url_path);
             <p>Blandit massa enim nec duin</p>
         </div>
       </div>
+      <!-- end img -->
+      <!--img-->
       <div class="col-md-4">
         <div class="over">
           <a href="#"><img src="images/10-3.jpg" alt="hinhanh3"></a>
@@ -41,7 +49,9 @@ $url_path = str_replace('\\', '/', $url_path);
             <p>Blandit massa enim nec duin</p>
         </div>
       </div>
+      <!-- end img -->
     </div>
+    <!-- end phần sau -->
   </div>
 </div>
 

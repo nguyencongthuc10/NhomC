@@ -9,15 +9,23 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-7">
   <div class="container">
     <div class="row">
+      <!-- Col-md-7 -->
       <div class="col-md-7 ">
+        <!-- img 1 -->
         <div class="a7_1">
           <img src="images/7-1.jpg" alt="hinh1">
         </div>
+        <!-- end img 1 -->
       </div>
+      <!-- End col-md-7 -->
+      <!-- Col-md-5 -->
       <div class="col-md-5">
+        <!--img 2 -->
         <div class=" a7_2">
           <img src="images/7-2.jpg" alt="hinh2">
-        </div>
+        </div> 
+        <!--end img 2 -->
+        <!--noi dung bên phải -->
         <div class="a7_3">
           <h2 class="a7_3_1">new</h2>
           <h2 class="a7_3_2">golden collection</h2>
@@ -29,7 +37,9 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
           </div>
         </div>
+        <!-- end noi dung bên phải -->
       </div>
+      <!--End Col-md-5 -->
     </div>
   </div>
 </div>
