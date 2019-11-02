@@ -10,21 +10,29 @@ $url_path = str_replace('\\', '/', $url_path);
     <!--CONTAINER-->
     <div class="container">
         <h2 class="name-pr-25">Related products</h2>
+        <!-- row -->
         <div class="row">
+            <!-- col-md-4 -->
             <div class="col-md-4 a3_1">
+                <!-- button -->
                 <div class="disco">
                     <div class="btn-discover">
-                        <a href="#" class="abc">View Cart</a> 
+                        <a href="#" class="view-card">View Cart</a> 
                         <a href="#" class="qw">Quick View</a> 
                     </div>
                 </div>
+                <!-- images -->
                 <div class="a3_1_2 ">
-                   <a href=""><img src="images/main-shop-25.jpg" alt="hhh" style="width: 100%;height: 100%"></a>
+                    <a href="">
+                        <img src="images/main-shop-25.jpg" alt="hhh" width="100%" height="100%" >
+                    </a>
                    <span class="New-proruct-25">New</span>
                </div>
+               <!-- name product -->
                <div class="product-product-25">
                 <h5 class="name-25-product-hieu"><a href="">Silk Shirt</a></h5>
                   <div class="hkg-hieu-25">
+                    <!--svg icon -->
                     <div class="traitim-25-hieunguyen">
                         <a href="#">
                              <svg>   
@@ -36,22 +44,29 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                     </div>
                 <span class="product-25-category"><a href="#">Clothes</a></span>
-                <p class="product-25-price">$35.00</p>
+                <p class="product-25-price">$220.000</p>
                 </div>
             </div>
+            <!-- col-md-4 -->
             <div class="col-md-4 a3_1">
+                 <!-- button -->
                 <div class="disco">
                     <div class="btn-discover">
-                        <a href="#"  class="abc">View Cart</a> 
+                        <a href="#"  class="view-card">View Cart</a> 
                         <a href=""class="qw">Quick View</a> 
                     </div>
                 </div>
+                 <!-- images -->
                 <div class="a3_1_2 ">
-                   <a href=""><img src="images/main-shop-sl2-7.jpg" alt="" style="width: 100%;height: 100%"></a>
+                   <a href=""><img src="images/main-shop-sl2-7.jpg" alt="" width="100%" height="100%"></a>
                </div>
+                
+               <!-- name product -->
                <div class="product-product-25">
-                    <h5 class="name-25-product-hieu"><a href="">Silk Shirt</a></h5>
+                    <h5 class="name-25-product-hieu">
+                        <a href="">Silk Shirt</a></h5>
                       <div class="hkg-hieu-25 ">
+                         <!--svg icon -->
                         <div class="traitim-25-hieunguyen ">
                             <a href="#" >
                                 <svg>   
@@ -63,22 +78,27 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                         </div>
                     <span class="product-25-category"><a href="#">Clothes</a></span>
-                    <p class="product-25-price">$35.00</p>
+                    <p class="product-25-price">$180.00</p>
                 </div> 
            </div>
+           <!-- col-md-4 -->
            <div class="col-md-4 a3_1">
+            <!-- button -->
               <div class="disco">
                 <div class="btn-discover">
-                    <a href="#"  class="abc">View Cart</a> 
+                    <a href="#"  class="view-card">View Cart</a> 
                     <a href=""class="qw">Quick View</a> 
                 </div>
             </div>
+            <!-- images -->
             <div class="a3_1_2 ">  
-                <a href=""> <img src="images/main-shop-sl2-2.jpg" alt="" style="width: 100%;height: 100%"></a>
+                <a href=""> <img src="images/main-shop-sl2-2.jpg" alt="" width="100%" height="100%"></a>
             </div>    
+            <!-- name product -->
             <div class="product-product-25">
                 <h5 class="name-25-product-hieu"><a href="">Silk Shirt</a></h5>
                   <div class="hkg-hieu-25 ">
+                    <!--svg icon -->
                     <div class="traitim-25-hieunguyen " >
                         <a href="#" >
                             <svg >   

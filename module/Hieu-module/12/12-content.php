@@ -8,14 +8,18 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-12">
+  <!-- Container -->
   <div class="container"> 
+    <!-- Nametitle -->
       <div class="name-title-banner">
         <a href="#" class="nille-name">#NILLETHEME</a>
       </div>
+      <!-- name banner -->
       <div class="name-title-banner-p2">
           <h1>BEST OF OUR INSTAGRAM </h1>
           <p class="hieu-banner-ins">Our campaigns, the latest trends and new collections </p>
       </div>
+      <!-- images thumnal -->
       <div class="thumnal">
         <ul class="instagram-nth">
           <li>
@@ -44,5 +48,7 @@ $url_path = str_replace('\\', '/', $url_path);
           </li>
         </ul>
       </div>
+      <!--images thumnal   -->
   </div>
+  <!-- container -->
 </div>

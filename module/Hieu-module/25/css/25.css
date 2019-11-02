@@ -30,14 +30,14 @@
 .type-25 .disco .btn-discover .qw {
   margin-top: 20px;
 }
-.type-25 .disco .btn-discover .abc {
+.type-25 .disco .btn-discover .view-card {
   background-color: #000;
   color: #fff;
 }
-.type-25 .disco .btn-discover .abc:before {
+.type-25 .disco .btn-discover .view-card:before {
   content: "";
-  display: block;
   position: absolute;
+  display: block;
   width: 100%;
   height: 100%;
   top: 0;
@@ -51,7 +51,7 @@
   transition: 0s;
   z-index: -1;
 }
-.type-25 .disco .btn-discover .abc:hover {
+.type-25 .disco .btn-discover .view-card:hover {
   animation: color-view 1.2s cubic-bezier(0.34,0.43,0.13,0.96) forwards;
 }
 .type-25 .disco .btn-discover a {
