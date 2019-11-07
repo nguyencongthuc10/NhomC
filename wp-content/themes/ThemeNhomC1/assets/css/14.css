@@ -1,0 +1,86 @@
+.type-14 {
+  border-top: 1px solid #e1e1e1;
+  padding-top: 6rem;
+}
+.type-14 h5 {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 19px;
+  font-size: 14px;
+  letter-spacing: .07em;
+  font-family: Muli, sans-serif;
+  color: #000;
+  line-height: 1.71em;
+}
+.type-14 p a {
+  color: #bda5a5;
+  font-family: Muli, sans-serif;
+}
+.type-14 p a:hover {
+  text-decoration: none;
+  color: #757575;
+}
+.type-14 .a14_1 {
+  margin-bottom: 60px;
+}
+.type-14 .a14_2 {
+  margin-top: 35px;
+}
+.type-14 .a14_2 a {
+  text-decoration: none;
+}
+.type-14 .a14_2 a span {
+  color: #cacaca;
+  font-size: 14px;
+  margin-right: 15px;
+}
+.type-14 .a14_2 a span:hover {
+  color: #000;
+}
+.type-14 .a14_3 {
+  padding: 5px 0px;
+  background-color: #f6f0e9;
+}
+.type-14 .a14_4 {
+  color: #bf5c30;
+  font-size: 12px;
+  letter-spacing: .4em;
+  font-family: Cormorant, serif;
+}
+.type-14 .a14_4 h6 {
+  float: left;
+}
+.type-14 .a14_4 a {
+  color: #bf5c30;
+  text-decoration: none;
+}
+.type-14 .a14_4 a:hover {
+  color: #757575;
+}
+.type-14 .a14_4 img {
+  padding: 5px 0px;
+  float: right;
+}
+@media (max-width: 320px) {
+  .type-14 .a14_4 h6 {
+    font-size: 7px !important;
+  }
+}
+@media (max-width: 375px) {
+  .type-14 .a14_4 h6 {
+    font-size: 9px;
+  }
+}
+@media (max-width: 516px) {
+  .type-14 .a14_4 img {
+    float: left;
+  }
+}
+@media (max-width: 1023px) {
+  .type-14 .a14_1 {
+    margin-left: 25px;
+  }
+  .type-14 .a14_4 {
+    margin-left: 25px;
+  }
+}

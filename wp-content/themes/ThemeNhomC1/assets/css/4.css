@@ -1,0 +1,169 @@
+.module-4 {
+  display: inline;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 11111;
+  pointer-events: none;
+}
+.module-4 .qodef-sp-table {
+  position: relative;
+  display: table;
+  width: 100%;
+  z-index: 9;
+  background-color: rgba(255,255,255,0);
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell {
+  position: relative;
+  display: table-cell;
+  width: 100%;
+  vertical-align: bottom;
+  text-align: center;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner {
+  display: inline-block;
+  width: 34%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0 0 7px 0 rgba(0,0,0,0.07);
+  box-shadow: 0 0 7px 0 rgba(0,0,0,0.07);
+  -webkit-transition: 1s cubic-bezier(0.54,0.32,0.05,0.96);
+  -o-transition: 1s cubic-bezier(0.54,0.32,0.05,0.96);
+  transition: 1s cubic-bezier(0.54,0.32,0.05,0.96);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  pointer-events: all;
+  will-change: transform;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 18px;
+  display: block;
+  color: #fff;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-close svg {
+  width: 12px;
+  height: 12px;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-close svg line {
+  stroke: #fff;
+  stroke-width: 2px;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-close:hover {
+  color: #000;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-background {
+  display: table-cell;
+  width: 31%;
+  background-size: cover;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-content-container {
+  background: #c5af93;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 20px 50px 42px;
+  text-align: left;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-content-container .qodef-sp-title {
+  position: relative;
+  margin-bottom: 5px;
+  color: #fff;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-content-container .qodef-sp-subtitle {
+  margin-bottom: 26px;
+  color: #fff;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-content-container .wpcf7 {
+  position: relative;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-content-container .wpcf7 .custom-email .wpcf7-form-control.wpcf7-text {
+  background: #c5af93;
+  color: #fff;
+  border: none;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #fff;
+  line-height: 2.5em;
+  height: 36px;
+  font-size: 13px;
+  font-weight: 300;
+  text-transform: none;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-content-container .wpcf7 .custom-email .wpcf7-form-control.wpcf7-text::placeholder {
+  color: #fff;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-content-container .wpcf7 .custom-email .wpcf7-form-control.wpcf7-text:focus {
+  outline: none;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-content-container .wpcf7 .custom-email .qodef-btn.qodef-btn {
+  color: #fff;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 6px;
+  background-color: transparent;
+  border: none !important;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-content-container .wpcf7 .custom-email .qodef-btn.qodef-btn:after,
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-content-container .wpcf7 .custom-email .qodef-btn.qodef-btn:before {
+  content: none;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-content-container .wpcf7 .custom-email .qodef-btn.qodef-btn:hover .qodef-btn-text {
+  color: rgba(255,255,255,0.8);
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-content-container .qodef-sp-prevent {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin-top: 5px;
+  color: #fff;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-content-container .qodef-sp-prevent .qodef-sp-prevent-inner {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-content-container .qodef-sp-prevent .qodef-sp-prevent-inner > * {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-content-container .qodef-sp-prevent .qodef-sp-prevent-inner .qodef-sp-prevent-input {
+  margin: -1px 7px 0 0;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #fff;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-content-container .qodef-sp-prevent .qodef-sp-prevent-inner .qodef-sp-prevent-input svg {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.1s ease;
+  -o-transition: opacity 0.1s ease;
+  transition: opacity 0.1s ease;
+  fill: #fff;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-content-container .qodef-sp-prevent .qodef-sp-prevent-inner .qodef-sp-prevent-input.qodef-sp-prevent-clicked svg {
+  opacity: 1;
+}
+.module-4 .qodef-sp-table .qodef-sp-table-cell .qodef-sp-inner .qodef-sp-content-container .qodef-sp-prevent .qodef-sp-prevent-inner .qodef-sp-prevent-label {
+  font-size: 13px;
+  cursor: pointer;
+}

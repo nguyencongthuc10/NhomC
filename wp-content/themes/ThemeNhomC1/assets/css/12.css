@@ -1,0 +1,113 @@
+.type-12 ::selection {
+  background: #bf5c30;
+  color: #fff;
+}
+.type-12 .container {
+  padding-top: 100px;
+}
+.type-12 .name-title-banner {
+  text-align: center;
+  letter-spacing: 6px;
+  font-family: serif;
+  font-size: 13px;
+}
+.type-12 .name-title-banner-p2 {
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}
+.type-12 .nille-name {
+  color: #bf5c30;
+}
+.type-12 .hieu-banner-ins {
+  font-size: 18px;
+  color: #757575;
+  padding-bottom: 30px;
+}
+.type-12 .thumnal ul li {
+  list-style: none;
+  display: block;
+  float: left;
+}
+.type-12 .thumnal img {
+  width: 275px;
+}
+.type-12 .thumnal li {
+  width: 25%;
+}
+.type-12 .instagram-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  -webkit-transform: translate(-50%,-10%);
+  -ms-transform: translate(-50%,-10%);
+  transform: translate(-50%,-10%);
+}
+.type-12 .instagram-nth li a:hover .instagram-icon {
+  opacity: 1;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+.type-12 .instagram-nth li a:hover:after {
+  opacity: 1;
+}
+.type-12 .instagram-nth li a:after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  content: '';
+  background-color: rgba(0,0,0,0.4);
+  opacity: 0;
+  -webkit-transition: opacity .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
+}
+.type-12 .fab {
+  font-family: "font awesome 5 brands";
+}
+.type-12 .fa-instagram:before {
+  content: "\f16d";
+}
+.type-12 .thumnal img {
+  opacity: 1;
+  transition: opacity .40s ease-in-out;
+  -webkit-transition: opacity .40s ease-in-out;
+  -moz-transition: opacity .40s ease-in-out;
+  -o-transition: opacity .40s ease-in-out;
+}
+.type-12 .ins-thumnal img:hover {
+  opacity: 0.75;
+}
+.type-12 .instagram-nth li a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+@media only screen and (max-width: 680px) {
+  .type-12 .instagram-nth:not(.instagram) li {
+    width: 50% !important;
+  }
+}
+@media screen and (max-width: 441px) {
+  .type-12 .instagram-nth:not(.instagram) li {
+    width: 50% !important;
+    margin-left: -12px;
+  }
+  .type-12 .thumnal img {
+    width: 160px !important;
+  }
+}
+@media screen and (max-width: 375px) {
+  .type-12 .instagram-nth:not(.instagram) li {
+    margin-left: -12px;
+  }
+}
