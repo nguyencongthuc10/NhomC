@@ -43,7 +43,7 @@ $url_path = str_replace('\\', '/', $url_path);
 				</form>
 				<div class="yith-wcwl-add-to-wishlist add-to-wishlist-723">
 					<div class="yith-wcwl-add-button show" style="display:block">
-						<a href="/product/white-pearl/?add_to_wishlist=723" rel="nofollow" data-product-id="723" data-product-type="simple" class="add_to_wishlist">
+						<a href="#" rel="nofollow" data-product-id="723" data-product-type="simple" class="add_to_wishlist">
 							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 18 16" style="enable-background:new 0 0 18 16;" xml:space="preserve">
 								<style type="text/css">
 									.st0{fill:none;stroke:#bf5c30;stroke-width:0.65;stroke-miterlimit:10;}
@@ -62,7 +62,7 @@ $url_path = str_replace('\\', '/', $url_path);
 							<path class="st-fill" d="M8.9,14.8c0.5,0,10.4-6.4,7-11.6c-0.5-0.8-1.8-1.9-3.5-1.8c-2.6,0-3.3,2.5-3.5,2.5c-0.2,0-1-2.6-3.7-2.6
 							c-1.9,0-3.1,1.3-3.4,1.9C-1.2,8.4,8.4,14.8,8.9,14.8z"></path>
 						</svg>Product added!</span>
-						<a href="https://nille.qodeinteractive.com/wishlist/" rel="nofollow">
+						<a href="#" rel="nofollow">
 							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 18 16" style="enable-background:new 0 0 18 16;" xml:space="preserve">
 								<style type="text/css">
 									.st-fill{fill: #bf5c30;stroke:#bf5c30;stroke-width:0.65;stroke-miterlimit:10;}
@@ -80,7 +80,7 @@ $url_path = str_replace('\\', '/', $url_path);
 							<path class="st-fill" d="M8.9,14.8c0.5,0,10.4-6.4,7-11.6c-0.5-0.8-1.8-1.9-3.5-1.8c-2.6,0-3.3,2.5-3.5,2.5c-0.2,0-1-2.6-3.7-2.6
 							c-1.9,0-3.1,1.3-3.4,1.9C-1.2,8.4,8.4,14.8,8.9,14.8z"></path>
 						</svg>The product is already in the wishlist!</span>
-						<a href="https://nille.qodeinteractive.com/wishlist/" rel="nofollow">
+						<a href="#" rel="nofollow">
 							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 18 16" style="enable-background:new 0 0 18 16;" xml:space="preserve">
 								<style type="text/css">
 									.st-fill{fill: #bf5c30;stroke:#bf5c30;stroke-width:0.65;stroke-miterlimit:10;}
